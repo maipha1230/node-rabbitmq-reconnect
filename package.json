@@ -1,0 +1,19 @@
+{
+  "name": "rabbitmq-reconnect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "amqplib": "^0.10.5",
+    "dot-env": "^0.0.1",
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
+}
